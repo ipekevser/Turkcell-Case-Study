@@ -1,0 +1,38 @@
+.comp-home {
+  height: calc(100vh - 100px);
+  overflow-y: auto;
+  min-height: 500px;
+  width: 100%;
+  min-width: 725px;
+  padding: 40px;
+
+  .c-action-field {
+    display: flex;
+    justify-content: space-between;
+  }
+  .c-image-group {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 40px;
+    gap: 20px;
+    .c-image-field {
+      width: 270px;
+      height: 140px;
+    }
+  }
+
+  .c-divider {
+    margin: -5px;
+  }
+
+  .c-col-detail {
+    margin: 30px 50px;
+  }
+
+  .c-editButton {
+    width: 100px;
+    margin-top: -20px;
+  }
+}

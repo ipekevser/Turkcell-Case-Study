@@ -1,0 +1,33 @@
+.comp-header-01 {
+  width: 100%;
+  height: 50px;
+  padding: 20px 50px;
+  background-color: #2955ac;
+  display: flex;
+  align-items: center;
+  .c-link {
+    text-decoration: none;
+    .c-header-link {
+      color: #fff;
+      margin: 0;
+    }
+  }
+}
+
+.comp-footer-01 {
+  width: 100%;
+  height: 50px;
+  padding: 20px 50px;
+  background-color: #2955ac;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: #fff;
+  .c-footer-info {
+    font-size: 12px;
+  }
+}
+
+.main {
+  height: 100vh;
+}

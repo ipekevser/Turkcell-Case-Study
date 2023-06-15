@@ -1,0 +1,24 @@
+.comp-productTable {
+  margin-top: 50px;
+  width: 100%;
+
+  .p-actionButton {
+    width: 100px;
+    margin-right: 10px;
+  }
+
+  .p-titleColumn {
+    display: flex;
+    align-items: center;
+
+    .p-thumbnail {
+      max-width: 150px;
+      max-height: 150px;
+      margin-right: 10px;
+    }
+  }
+
+  .ant-pagination-options {
+    display: none;
+  }
+}
